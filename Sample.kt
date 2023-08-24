@@ -19,5 +19,5 @@ internal class ExNestedClassesVisibility {
 
 fun exEqualsNullCall() {
     val name = "John Doe"
-    println(name.equals(null))
+    println(name == null)
 }
