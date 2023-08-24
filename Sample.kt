@@ -14,7 +14,7 @@ fun exUnnecessarySafeCall() {
 }
 
 internal class ExNestedClassesVisibility {
-    public class Nested
+    class Nested
 }
 
 fun exEqualsNullCall() {
