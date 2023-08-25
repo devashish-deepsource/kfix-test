@@ -5,7 +5,7 @@ abstract interface ExFixOptionalAbstractKeyword {
 
 fun exUnnecessaryNotNullOperator() {
     val num = 5
-    println(num!!.toString())
+    println(num.toString())
 }
 
 fun exEqualsNullCall3() {
