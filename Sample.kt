@@ -10,7 +10,7 @@ fun exUnnecessaryNotNullOperator() {
 
 fun exEqualsNullCall3() {
     val name = "John Doe"
-    println(name.equals(null))
+    println(name == null)
 }
 
 fun exUnnecessarySafeCall23() {
