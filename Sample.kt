@@ -1,6 +1,6 @@
-abstract interface ExFixOptionalAbstractKeyword {
-    abstract val number: Int
-    abstract fun method()
+ interface ExFixOptionalAbstractKeyword {
+    val number: Int
+    fun method()
 }
 
 fun exUnnecessaryNotNullOperator() {
