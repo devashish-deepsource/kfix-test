@@ -5,7 +5,7 @@ fun exEqualsNullCall() {
 
 fun exUnnecessarySafeCall2() {
     val ten = 10
-    println(ten.toString()?.length)
+    println(ten.toString().length)
 }
 
 internal class ExNestedClassesVisibility2 {
