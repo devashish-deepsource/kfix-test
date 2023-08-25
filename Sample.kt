@@ -8,16 +8,16 @@ fun exUnnecessaryNotNullOperator() {
     println(num!!.toString())
 }
 
-fun exUnnecessarySafeCall() {
+fun exEqualsNullCall3() {
+    val name = "John Doe"
+    println(name.equals(null))
+}
+
+fun exUnnecessarySafeCall23() {
     val ten = 10
     println(ten.toString()?.length)
 }
 
-internal class ExNestedClassesVisibility {
+internal class ExNestedClassesVisibility23 {
     public class Nested
-}
-
-fun exEqualsNullCall() {
-    val name = "John Doe"
-    println(name.equals(null))
 }
