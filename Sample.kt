@@ -7,17 +7,3 @@ fun exUnnecessaryNotNullOperator() {
     val num = 5
     println(num!!.toString())
 }
-
-fun exUnnecessarySafeCall() {
-    val ten = 10
-    println(ten.toString()?.length)
-}
-
-internal class ExNestedClassesVisibility {
-    public class Nested
-}
-
-fun exEqualsNullCall() {
-    val name = "John Doe"
-    println(name.equals(null))
-}
