@@ -19,5 +19,5 @@ fun exUnnecessarySafeCall23() {
 }
 
 internal class ExNestedClassesVisibility23 {
-    public class Nested
+    class Nested
 }
