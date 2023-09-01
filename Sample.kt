@@ -22,4 +22,4 @@ internal class ExNestedClassesVisibility23 {
     public class Nested
 }
 
-val myNameIs = "Slim Shady"
+const val myNameIs = "Slim Shady"
